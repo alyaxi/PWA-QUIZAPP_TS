@@ -1,5 +1,5 @@
 const CACHE_NAME = "version-1";
-const urlsToCache = ['index.html', 'offline.html']
+const urlsToCache = ['index.html', 'offline.html',"images/logo.png"]
 
 const self = this;
 // INSTALLATION SERVICE WORKER
@@ -39,6 +39,8 @@ self.addEventListener('activate', (event) => {
                     return caches.delete(cacheName)
                 }
             })
-        ))
+        )).catch((err) => {
+            console.log("error: ", err);
+        })
     )
 });
