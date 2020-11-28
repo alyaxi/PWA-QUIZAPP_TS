@@ -1,4 +1,4 @@
-PQuizApp Link: https://pwaquizapp.netlify.app/
+QuizApp Link: https://pwaquizapp.netlify.app/
 
 # Getting Started with Create React App
 
