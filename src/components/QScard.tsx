@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { QuizTypes, PropsTypes } from './Types/Types';
+import { PropsTypes } from './Types/Types';
 import '../App.css';
 import {  FormControl,FormControlLabel,RadioGroup,Radio} from '@material-ui/core';
 
